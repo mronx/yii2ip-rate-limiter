@@ -1,9 +1,9 @@
 <?php
 
-namespace mronx\ratelimiter;
+namespace Mronx\ratelimiter;
 
 use Yii;
-use mronx\ratelimiter\User;
+use Mronx\ratelimiter\User;
 
 class RateLimiter extends \yii\filters\RateLimiter
 {
