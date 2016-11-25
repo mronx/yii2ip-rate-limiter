@@ -1,6 +1,6 @@
 <?php
 
-namespace mronx\ratelimiter;
+namespace Mronx\ratelimiter;
 
 use Yii;
 
