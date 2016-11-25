@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require uz/yii2-ip-ratelimiter "1.0.2"
+php composer.phar require uz/yii2-ip-ratelimiter "^1.0"
 ```
 
 or add
 
 ```
-"uz/yii2-ip-ratelimiter": "1.0.2"
+"uz/yii2-ip-ratelimiter": "^1.0"
 ```
 
 to the require section of your `composer.json` file.
