@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require uz/yii2-ip-ratelimiter "~1.0.0"
+php composer.phar require uz/yii2-ip-ratelimiter "1.0.2"
 ```
 
 or add
 
 ```
-"uz/yii2-ip-ratelimiter": "~1.0.0"
+"uz/yii2-ip-ratelimiter": "1.0.2"
 ```
 
 to the require section of your `composer.json` file.
@@ -31,7 +31,7 @@ public function behaviors()
 	$behaviors = parent::behaviors();
 	$behaviors['rateLimiter'] = [
 		// Use class
-		'class' => \mronx\ratelimiter\RateLimiter::className(),
+		'class' => \Mronx\ratelimiter\RateLimiter::className(),
 
 		// The maximum number of allowed requests
 		'rateLimit' => 100,
