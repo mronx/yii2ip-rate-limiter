@@ -10,7 +10,10 @@
 			"email": "mronx@ya.ru"
 		}
 	],
-	"require": {},
+	"require": {
+        	"yiisoft/yii2": "*"
+	},
+	"minimum-stability": "dev",
 	"autoload": {
 		"psr-4": {
 			"mronx\\ratelimiter\\": ""
